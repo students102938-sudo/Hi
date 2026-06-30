@@ -71,6 +71,10 @@ td,th{
   align-items:center;
 }
 
+#loginPage.hidden{
+  display:none;
+}
+
 .login-card{
   width:320px;
   background:#1b2233;
