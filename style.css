@@ -1,0 +1,107 @@
+body{
+  background:#0f1117;
+  color:white;
+  font-family:Arial;
+  margin:0;
+}
+
+.hidden{
+  display:none;
+}
+
+.layout{
+  display:flex;
+  min-height:100vh;
+}
+
+.sidebar{
+  width:220px;
+  background:#151b28;
+  padding:20px;
+}
+
+.sidebar button{
+  width:100%;
+  margin-bottom:10px;
+  padding:12px;
+}
+
+.main-content{
+  flex:1;
+  padding:20px;
+}
+
+.card{
+  background:#1b2233;
+  padding:20px;
+  border-radius:12px;
+  margin-bottom:20px;
+}
+
+.form-card{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+input{
+  padding:12px;
+}
+
+button{
+  background:#e8a020;
+  border:none;
+  padding:12px 18px;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+table{
+  width:100%;
+}
+
+td,th{
+  padding:10px;
+}
+
+#loginPage{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.login-card{
+  width:320px;
+  background:#1b2233;
+  padding:30px;
+  border-radius:12px;
+}
+
+.login-card input{
+  width:100%;
+  margin-bottom:15px;
+}
+
+#toast{
+  position:fixed;
+  bottom:20px;
+  left:50%;
+  transform:translateX(-50%);
+  background:#e8a020;
+  color:black;
+  padding:12px 20px;
+  border-radius:10px;
+  display:none;
+}
+
+#splashScreen{
+  position:fixed;
+  inset:0;
+  background:#0f1117;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  z-index:9999;
+}
